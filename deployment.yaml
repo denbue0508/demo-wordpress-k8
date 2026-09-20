@@ -29,7 +29,7 @@ spec:
                   name: wordpress-db-secret
                   key: database-password
             - name: WORDPRESS_DB_NAME
-              value: "wordpress_db" # Replace with your DB name
+              value: "wordpress" # Replace with your DB name
           ports:
             - containerPort: 80
               name: http
